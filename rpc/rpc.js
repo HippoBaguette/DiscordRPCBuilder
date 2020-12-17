@@ -1,14 +1,14 @@
 module.exports={
-    buildRPC(rpc, rpcInfo){
+    buildRPC(rpc, largeImage, largeImageText, smallImage, smallImageText, lineOne, lineTwo){
         rpc.on("ready", () => {
             rpc.setActivity({
-                details: rpcInfo.lineOne,
-                state: rpcInfo.lineTwo,
+                details: lineOne,
+                state: lineTwo,
                 startTimestamp: new Date(),
-                largeImageKey: rpcInfo.largeImage,
-                largeImageText: rpcInfo.largeImageText,
-                smallImageKey: rpcInfo.smallImage,
-                smallImageText: rpcInfo.smallImageText
+                largeImageKey: largeImage,
+                largeImageText: largeImageText,
+                smallImageKey: smallImage,
+                smallImageText: smallImageText
             });
         
             console.log("ready");
