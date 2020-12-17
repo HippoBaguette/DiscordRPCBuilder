@@ -1,5 +1,5 @@
 {
-  "name": "discordrpcbuilder",
+  "name": "@hippobaguette/discordrpcbuilder",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,5 +11,6 @@
   "dependencies": {
     "discord-rpc": "^3.1.4",
     "np": "^7.0.0"
-  }
+  },
+  "repository": "git://github.com/hippobaguette/discordrpcbuilder.git"
 }
