@@ -25,7 +25,7 @@ To install `npm i rpcsimplified`
     rpc.build("large-image", "large-image-text", "small-image", "small-image-text", "line-one", "line-two");
     ```
 
-    Here it is after the code is ran.
+    Here it is after the code it is ran.
 
     ![Result](/images/rpcone.png "RPC")
 
