@@ -1,6 +1,6 @@
 {
   "name": "@hippobaguette/rpcsimplified",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,5 @@
     "discord-rpc": "^3.1.4",
     "np": "^7.0.0"
   },
-  "repository": "git://github.com/hippobaguette/discordrpcbuilder.git"
+  "repository": "git://github.com/hippobaguette/rpcsimplified.git"
 }
