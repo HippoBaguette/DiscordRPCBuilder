@@ -1,4 +1,4 @@
-# DiscordRPCBuilder
+# RPCSimplifed
  
 By HippoBaguette  
 
@@ -6,6 +6,10 @@ By HippoBaguette
 # Info
 Dependencies:  discord-rpc version 3.1.4  
 Requires Node.js
+
+A Discord rich presence client generator
+
+To install `npm i rpcsimplified`
 
 # Simple example
 
