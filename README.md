@@ -27,10 +27,12 @@ To install `npm i rpcsimplified`
 
     Here it is after the code is ran.
 
+    ![Result](/images/rpcone.png "RPC")
+
     (Note it is assumed you have images upload)  
     (And rename `large-image` and `small-image` to whatever you called the images in the Discord application)
     
-    ![Put the clientID here](/images/rpcone.png "RPC")
+
     
 
 Any problems please make an issue :)
