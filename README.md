@@ -32,7 +32,7 @@ To install `npm i rpcsimplified`
     });
     ```
 
-    Here it is after the code is ran.
+    Here it is after the code it is ran.
 
     ![Result](/images/rpcone.png "RPC")
 
