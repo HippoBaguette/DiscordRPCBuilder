@@ -22,7 +22,14 @@ To install `npm i rpcsimplified`
     const rpc = require("rpcsimplified");
 
     rpc.login("your-client-id");
-    rpc.build("large-image", "large-image-text", "small-image", "small-image-text", "line-one", "line-two");
+    rpc.build({
+        largeImage: "large-image", 
+        largeImageText: "large-image-text", 
+        smallImag: "small-image", 
+        smallImageText: "small-image-text", 
+        lineOne: "line-one", 
+        lineTwo: "line-two"
+    });
     ```
 
     Here it is after the code is ran.

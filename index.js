@@ -14,7 +14,7 @@ module.exports = {
             clientId: id
         });
     },
-    build(largeImage, largeImageText, smallImage, smallImageText, lineOne, lineTwo){
-        buildRPC(rpc, largeImage, largeImageText, smallImage, smallImageText, lineOne, lineTwo);
+    build(args){
+        buildRPC(rpc, args.largeImage, args.largeImageText, args.smallImage, args.smallImageText, args.lineOne, args.lineTwo);
     }
 }
