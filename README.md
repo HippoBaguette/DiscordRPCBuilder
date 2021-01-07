@@ -9,7 +9,7 @@ Requires Node.js
 
 A Discord rich presence client generator
 
-To install `npm i @hippobaguette/rpcsimplified`
+EDIT: installing via npm is broken, now copy the source code into a folder.
 
 # Simple example
 
@@ -19,7 +19,7 @@ To install `npm i @hippobaguette/rpcsimplified`
 
 2. In index.js 
     ```js
-    const rpc = require("rpcsimplified");
+    const rpc = require("./rpcsimplified.js");
 
     rpc.login("your-client-id");
     rpc.build({
